@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+#container{
+  background-image: url(./photos/background.png);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App-link {
+  color: #61dafb;
+}
+
+#h1{
+  width: 514px;
+  height: 120px;
+  color: white;
+  font-size: 66px;
+  width: 804px;
+  height: 120px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#new{
+  width: 323px;
+  height: 58px;
+  color: white;
+  font-size: 24px;
+width: 523.85px;
+height: 58px;
+font-weight: 600;
+}
+#teams{
+  color: white;
+  position: absolute;
+  width: 87px;
+  height: 60px;
+  font-size: 40px;
+  font-weight: 800;
+  margin-left: 140px;
+}
+#product{
+width: 68px;
+height: 28px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+
+}
+#servers{
+  width: 64px;
+  height: 28px;
+  font-style: normal;
+  font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+#contact{
+width: 60px;
+height: 28px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+
+}
+#login{
+width: 47px;
+height: 28px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+
+ }
+#getacc{
+  height: 58px;
+  width: 128px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #FFFFFF;
+  background-color: transparent;
+  color: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+#profilepage{
+  background-color: #FFFFFF;
+  width: 100vw;
+  height: 100vw;
+}
+#bottom{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 30%;;
+  left: 10%;
+}
+#log{
+  display: flex;
+
+}
+#logginbutton{
+  color: #FFFFFF;
+}
+#href{
+  display: flex;
+  align-items: center;
+  width: 600px;
+  justify-content:right;
+  position: absolute;
+  right: 5%;
+}
+#buttongetacc{
+  background-color: #0BBEF2;
+  width: 163px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+} 
+#text{
+  width: 316px;
+  height: 60px;
+}
+#dot{
+  font-size: 14px;
+  color: #0BBEF2;
+  margin-left: 4px;
+}
+#head{
+  height: 90px;
+}

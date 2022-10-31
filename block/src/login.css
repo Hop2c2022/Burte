@@ -1,0 +1,40 @@
+#container{
+    display: flex;
+    flex-direction: row;
+}
+#img{
+    background-image: url(./photos/log.png);
+    width: 2500px;
+    height: 1090px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#input{
+    display: flex;
+    flex-direction: column;
+}
+#namein{
+    width: 400px;
+    height: 40px;
+    margin-left: 330px;
+    margin-bottom: 80px;
+    margin-top: 10px;
+    color: #154c79;
+    font: 700;
+}
+#register{
+    width: 260px;
+    height: 50px;
+    background-color: #0BBEF2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+}
+#hello{
+    font-size: 90px;
+    color: #154c79;
+}
+#expl{
+    margin-bottom: 60px;
+}
