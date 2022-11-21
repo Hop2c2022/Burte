@@ -9,13 +9,24 @@ import Arr3 from "../photos/Arr3.png"
 import face1 from "../photos/face1.png"
 import face2 from "../photos/face2.png"
 import faceicon3 from "../photos/faceicon3.png"
-import Form from 'react-bootstrap/Form';
+import { ThemeContext } from "../context/Context"
+import { Container } from "../theme/Theme"
+import { useState } from 'react';
+import React from "react";
+export const MainContent = React.createContext();
+const data ={
+  parentValue: "Parent Body",
+  childValue:"Child Body"
+};
 
 export const Product = () => {
+  const [darkMode, setDarkMode ] = useState(false)
     return(
+      <ThemeContext.Provider value={{ darkMode , setDarkMode}}>
         <div className="containerOfPrroduct">
             <div className='header'>
                 <h1 className='team.'style={{color:"black"}}>team.</h1>
+                <input type="checkbox" onClick={() => setDarkMode(!darkMode)} className="checkbox"></input>
                 <div className='href'>
                     <div id='product' ><Link to="/product">Product</Link></div>
                     <div id='servers'><Link to="/service">Service</Link></div>
@@ -95,9 +106,11 @@ export const Product = () => {
         </div>
         <div className='lefts'>
           <div style={{color:"white"}}>Subscribe for our newsletter </div>
-          <Form.Control style={{width:"310px"}} placeholder="Email" aria-label="Text input with checkbox" id="text"/>
+          {/* <Form.Control style={{width:"310px"}} placeholder="Email" aria-label="Text input with checkbox" id="text"/> */}
         </div>
       </div>
+      <Container />
         </div>
+        </ThemeContext.Provider>
     )
 }

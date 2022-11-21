@@ -164,7 +164,7 @@ color: #FFFFFF;
 #head{
   height: 90px;
 }
-.firsts{
+.firstss{
   display: flex;
   flex-direction: row;
 
@@ -282,6 +282,9 @@ color: #FFFFFF;
   justify-content: space-between;
   overflow: scroll;
 }
+.card{
+  width: 700px;
+}
 .first{
   width: 420px;
   height: 380px;
@@ -366,3 +369,17 @@ color: #FFFFFF;
   display: flex;
   flex-direction: row;
 }
+
+
+/* .container-dark{ 
+  width: 100vw;
+  height: 100vh;
+  background-color: #222529;
+}
+
+.container-light{ 
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+
+} */

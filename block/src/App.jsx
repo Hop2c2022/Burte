@@ -7,8 +7,11 @@ import{Service} from "./Pages/Service"
 import{Contact} from "./Pages/Contact"
 import{Login} from "./Pages/Login"
 import{Getaccess} from "./Pages/Getaccess"
-// import {Profiles} from "./Pages/Profiles"
+import { useState } from 'react';
+import {Profiles} from "./Pages/Profiles"
 const App=()=> {
+  const [darkMode, setDarkMode ] = useState(false)
+
   return (
     <div className="App">
           <BrowserRouter>

@@ -1,0 +1,42 @@
+/* .Contcontainer{
+    background-image: url("./photos/aboutus.png");
+    width: 100vw;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+} */
+.AboutUsFace{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 70px;
+}
+.AboutUsBorder{
+    margin-left: 700px;
+    /* position: absolute;
+    top: 300px;
+    right: 750px; */
+    width: 300px;
+    height: 400px;
+    box-shadow: #6D7D8B 0px 1px 1px 3px;
+    border-radius: 20px;
+    padding-top: 30px;
+
+}
+.im{
+    background-image: url("./photos/aboutus.png");
+    width: 900px;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 100px;
+}
+.abbb{
+    position: absolute;
+    right: 700px;
+    top: 90px;
+    color: #2596be;
+    font-size: 70px;
+    font-weight: bold;
+}

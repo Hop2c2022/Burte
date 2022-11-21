@@ -98,7 +98,7 @@ export const Home = () => {
        </div >
      </div>
      <div className='mid-side'>
-   <div className='firsts'>
+   <div className='firstss'>
      <div className='text-one'>
        <div className='header-one'>Your Hub for teamwork</div>
        <div className='words-one'>Give everyone you work with--inside and outside your company--a more productive way to stay in sync. Respond faster with emoji, keep conversation focused in channels, and simply all your communication into one place</div>
